@@ -1,0 +1,2761 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+a {
+    text-decoration: none;
+}
+ol,ul {
+    list-style-type: none;
+}
+/*=======###########=========index-forestGreen-version css strats here=========#############=========*/
+#forestGreen-version .menu-bg .navbar .navbar-brand{
+    color: #fff;
+}
+#forestGreen-version .banner-hire-me a:hover {
+    background: #0B6623; 
+}
+#forestGreen-version .banner-button a:hover {
+    background: #0B6623;
+    transition: all linear 0.3s;
+}
+#forestGreen-version .portfolio-desc a {
+	background: #0B6623;
+}
+#forestGreen-version .portfolio-desc a:hover {
+	background: transparent;
+	border: 2px solid #0B6623;
+	color: #0B6623;
+}
+#forestGreen-version .navbar-nav .nav-item .nav-link:hover {
+	color: #0B6623;
+	transition: all linear 0.3s;
+}
+#forestGreen-version .navbar-nav .nav-item .nav-link:hover:before {
+    background: #0B6623;
+}
+#forestGreen-version .navbar-nav .nav-item .nav-link.active {
+	color: #0B6623;
+}
+#forestGreen-version .menu-bg {
+	background: #0B6623;
+}
+#forestGreen-version .menu-bg .navbar-nav .nav-item .nav-link {
+	color: #fff;
+}
+#forestGreen-version .menu-bg .navbar-nav .nav-item .nav-link:hover:before {
+    opacity: 1;
+    width: 20px;
+    background: #fff;
+}
+#forestGreen-version .menu-bg .navbar-nav .nav-item .nav-link.active:before {
+    background: #fff;
+} 
+#forestGreen-version .portfolio-desc h6 span {
+	color: #0B6623;
+}
+#forestGreen-version .service-1-item i,#forestGreen-version .service-2-item i,
+#forestGreen-version .service-3-item i,#forestGreen-version .service-4-item i {
+	color: #0B6623;
+}
+#forestGreen-version .service-item-icon i {
+	color: #0B6623;
+}
+#forestGreen-version .service-1-item #p1::before {
+	background: #0B6623;
+	opacity: 0.5;
+}
+#forestGreen-version .service-2-item #p1::before {
+	background: #0B6623;
+	opacity: 0.5;
+}
+#forestGreen-version .service-3-item #p1::before {
+	background: #0B6623;
+	opacity: 0.5;
+}
+#forestGreen-version .service-4-item #p1::before {
+	background: #0B6623;
+	opacity: 0.5;
+}
+#forestGreen-version .progress-1-extra::before {
+	background-color: #0B6623;
+}
+#forestGreen-version .progress-2-extra::before {
+	background-color: #0B6623;
+}
+#forestGreen-version .progress-3-extra::before {
+	background-color: #0B6623;
+}
+#forestGreen-version .progress-4-extra::before {
+	background-color: #0B6623;
+}
+#forestGreen-version .counter-item-1 i,#forestGreen-version .counter-item-2 i,
+#forestGreen-version .counter-item-3 i,#forestGreen-version .counter-item-4 i {
+	color: #0BC023;
+}
+#forestGreen-version .gal-buttons a:hover {
+	color: #0B6623;
+}
+#forestGreen-version .gal-before-1 {
+	background: rgba(11, 102, 35, 0.6);
+}
+#forestGreen-version .gal-before-1 a:hover p {
+    color: #0BC023;
+}
+#forestGreen-version .gal-before-1 h6 {
+	color: #fff;
+}
+#forestGreen-version .gal-buttons .mixitup-control-active {
+    color: #0B6623;
+}
+#forestGreen-version .team-member-1 {
+	background: rgba(11, 102, 35, 0.8);
+}
+#forestGreen-version .team-member-1 h3 {
+	color: #fff;
+}
+#forestGreen-version .team-member-1 span {
+	color: rgba(255, 255, 255, 0.8);
+}
+#forestGreen-version .hire-us-2 a {
+	border: 2px solid #0B6623;
+}
+#forestGreen-version .hire-us-2 a:hover {
+	background: #0B6623;
+}
+#forestGreen-version .left {
+	background: rgba(135, 206, 235, 0.7);
+}
+#forestGreen-version .left:hover {
+	background: #0B6623;
+}
+#forestGreen-version .right {
+	background: rgba(135, 206, 235, 0.7);
+}
+#forestGreen-version .right:hover {
+	background: #0B6623;
+}
+#forestGreen-version .blog-post-item a:hover h2{
+    color: #0B6623; 
+}
+#forestGreen-version .blog-post-item #blog-span-2 {
+	color: #0B6623;
+}
+#forestGreen-version .blog-post-item #blog-span-2:hover {
+	color: #444;
+}
+#forestGreen-version .contact-form form button {
+	background: rgba(11, 102, 35, 0.8);
+}
+#forestGreen-version ::placeholder {  
+    color: #666;
+}
+#forestGreen-version .contact-form form button:hover {
+	background: #0B6623;
+}
+#forestGreen-version .contact-info-item-left i {
+	border: 1px solid #0B6623;
+	color: #0B6623;
+}
+#forestGreen-version .footer a:hover i {
+	color: #0B6623;
+}
+/*=======###########=========index-forestGreen-version css ends here=========#############=========*/
+
+/*======##########=======blog-forestGreen-version page design starts here=========########=============*/
+.menu-bg-blog-forestGreen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #0B6623;
+    transition: all linear 0.3s;
+    animation-name: menu-forestGreen-scroll-bg;
+    animation-duration: 1s;
+    z-index: 9999;
+}
+@keyframes menu-forestGreen-scroll-bg {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 0px;
+    }
+}
+.back2top-forestGreen {
+    width: 40px;
+    height: 40px;
+    background: rgba(11, 102, 35, 0.70);
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all linear 0.3s;
+    z-index: 999;
+    display: none;
+}
+.back2top-forestGreen:hover {
+    background: rgba(11, 102, 35, 0.90);
+}
+.back2top-forestGreen i {
+    line-height: 40px;
+    color: #fff;
+}
+.back2top-forestGreen-extra {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    animation-name: back2top-forestGreen-extra-animation;
+    animation-duration: 3s;
+}
+@keyframes back2top-forestGreen-extra-animation {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 800px;
+    }
+}
+#blog-forestGreen-version .banner-blog-text a:hover {
+	color: #0B6623;
+	transition: all linear 0.3s;
+}
+#blog-forestGreen-version .form-inline button:hover {
+	background: #0B6623;
+	transition: all linear 0.3s;
+}
+#blog-forestGreen-version #blog-area-span-three {
+	color: #0B6623;
+}
+#blog-forestGreen-version #blog-area-span-one-one {
+	color: #0B6623;
+}
+#blog-forestGreen-version #blog-area-span-one-one:hover {
+	color: #444;
+	transition: all linear 0.3s;
+}
+#blog-forestGreen-version .spacer {
+	background: #0B6623;
+}
+#blog-forestGreen-version .blog-desc-two {
+	border-left: 5px solid #0B6623;
+}
+#blog-forestGreen-version .blog-desc-links a:hover {
+	background: #0B6623;
+	color: #fff;
+}
+#blog-forestGreen-version .blog-desc-post-swap-link a:hover{
+	background: #0B6623;
+}
+#blog-forestGreen-version .comment-one-right-social a:hover i {
+	color: #0B6623;
+}
+#blog-forestGreen-version #form2 button a:hover {
+	background: #0B6623;
+	transition: all linear 0.3s;
+}
+#blog-forestGreen-version .spacer-for-search {
+	background: #0B6623;
+}
+#blog-forestGreen-version .spacer-for-recent-post {
+	background: #0B6623;
+}
+#blog-forestGreen-version .recent-posts-item-right a:hover {
+	color: #0B6623;
+}
+#blog-forestGreen-version .social-spacer {
+	background: #0B6623;
+}
+#blog-forestGreen-version .side-bar-spacer {
+	background: #0B6623;
+}
+#blog-forestGreen-version .archive-spacer {
+	background: #0B6623;
+}
+#blog-forestGreen-version .side-bar-dates-spacer {
+	background: #0B6623;
+}
+#blog-forestGreen-version .popular-pages-links a:hover {
+	background: #0B6623;
+	transition: all linear 0.3s;
+}
+#blog-forestGreen-version .footer a i:hover {
+	color: #0B6623;
+}
+#blog-forestGreen-version .side-bar-dates a:hover {
+   color: #0B6623; 
+}
+
+/*======##########=======blog-forestGreen-version page design ends here=========#############=============*/
+
+
+/*=======###########=========index-goldenRod-version css strats here=========#############=========*/
+
+#goldenRod-version .menu-bg .navbar .navbar-brand{
+    color: #fff;
+}
+#goldenRod-version .banner-button a:hover {
+    background: #DAA520;
+    transition: all linear 0.3s;
+}
+#goldenRod-version .banner-hire-me a:hover {
+    background: #DAA520; 
+}
+#goldenRod-version .portfolio-desc a {
+	background: #DAA520;
+}
+#goldenRod-version .portfolio-desc a:hover {
+	background: transparent;
+	border: 2px solid #DAA520;
+	color: #DAA520;
+}
+#goldenRod-version .navbar-nav .nav-item .nav-link:hover {
+	color: #DAA520;
+	transition: all linear 0.3s;
+}
+#goldenRod-version .navbar-nav .nav-item .nav-link:hover:before {
+    background: #DAA520;
+}
+#goldenRod-version .navbar-nav .nav-item .nav-link.active {
+	color: #DAA520;
+}
+#goldenRod-version .menu-bg {
+	background: #DAA520;
+}
+#goldenRod-version .menu-bg .navbar-nav .nav-item .nav-link {
+	color: #fff;
+}
+#goldenRod-version .menu-bg .navbar-nav .nav-item .nav-link:hover:before {
+    opacity: 1;
+    width: 20px;
+    background: #fff;
+}
+#goldenRod-version .menu-bg .navbar-nav .nav-item .nav-link.active:before {
+    background: #fff;
+} 
+#goldenRod-version .portfolio-desc h6 span {
+	color: #DAA520;
+}
+#goldenRod-version .back2top i {
+	background: rgba(218, 165, 32, 0.7);
+}
+#goldenRod-version .back2top:hover i{
+	background: #DAA520;
+	color: #fff;
+}
+#goldenRod-version .service-1-item i,#goldenRod-version .service-2-item i,
+#goldenRod-version .service-3-item i,#goldenRod-version .service-4-item i {
+	color: #DAA520;
+}
+#goldenRod-version .service-item-icon i {
+	color: #DAA520;
+}
+#goldenRod-version .service-1-item #p1::before {
+	background: #DAA520;
+	opacity: 0.5;
+}
+#goldenRod-version .service-2-item #p1::before {
+	background: #DAA520;
+	opacity: 0.5;
+}
+#goldenRod-version .service-3-item #p1::before {
+	background: #DAA520;
+	opacity: 0.5;
+}
+#goldenRod-version .service-4-item #p1::before {
+	background: #DAA520;
+	opacity: 0.5;
+}
+#goldenRod-version .progress-1-extra::before {
+	background-color: #DAA520;
+}
+#goldenRod-version .progress-2-extra::before {
+	background-color: #DAA520;
+}
+#goldenRod-version .progress-3-extra::before {
+	background-color: #DAA520;
+}
+#goldenRod-version .progress-4-extra::before {
+	background-color: #DAA520;
+}
+#goldenRod-version .counter-item-1 i,#goldenRod-version .counter-item-2 i,
+#goldenRod-version .counter-item-3 i,#goldenRod-version .counter-item-4 i {
+	color: #DAA520;
+}
+#goldenRod-version .gal-buttons a:hover {
+	color: #DAA520;
+}
+#goldenRod-version .gal-before-1 {
+	background: rgba(218, 165, 32, 0.6);
+}
+#goldenRod-version .gal-before-1 a:hover p {
+	color: #DAA520;
+}
+#goldenRod-version .gal-before-1 h6 {
+	color: #fff;
+}
+#goldenRod-version .gal-buttons .mixitup-control-active {
+    color: #DAA520;
+}
+#goldenRod-version .team-member-1 {
+	background: rgba(218, 165, 32, 0.8);
+}
+#goldenRod-version .team-member-1 h3 {
+	color: #fff;
+}
+#goldenRod-version .team-member-1 span {
+	color: rgba(255, 255, 255, 0.8);
+}
+#goldenRod-version .hire-us-2 a {
+	border: 2px solid #DAA520;
+}
+#goldenRod-version .hire-us-2 a:hover {
+	background: #DAA520;
+}
+#goldenRod-version .left {
+	background: rgba(135, 206, 235, 0.7);
+}
+#goldenRod-version .left:hover {
+	background: #DAA520;
+}
+#goldenRod-version .right {
+	background: rgba(135, 206, 235, 0.7);
+}
+#goldenRod-version .right:hover {
+	background: #DAA520;
+}
+#goldenRod-version .blog-post-item a:hover h2{
+    color: #DAA520; 
+}
+#goldenRod-version .blog-post-item #blog-span-2 {
+	color: #DAA520;
+}
+#goldenRod-version .blog-post-item #blog-span-2:hover {
+	color: #444;
+}
+#goldenRod-version .contact-form form button {
+	background: rgba(218, 165, 32, 0.7);
+}
+#goldenRod-version ::placeholder {
+    color: #666;
+}
+#goldenRod-version .contact-form form button:hover {
+	background: #DAA520;
+}
+#goldenRod-version .contact-info-item-left i {
+	border: 1px solid #DAA520;
+	color: #DAA520;
+}
+/*=======###########=========index-goldenRod-version css ends here=========#############=========*/
+
+/*=====##########========blog-goldenRod-version page design starts here=========##########=============*/
+
+.menu-bg-blog-goldenRod{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #DAA520;
+    transition: all linear 0.3s;
+    animation-name: menu-goldenRod-scroll-bg;
+    animation-duration: 1s;
+    z-index: 9999;
+}
+@keyframes menu-goldenRod-scroll-bg {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 0px;
+    }
+}
+.back2top-goldenRod {
+    width: 40px;
+    height: 40px;
+    background: rgba(218, 165, 32, 0.70);
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all linear 0.3s;
+    z-index: 999;
+    display: none;
+}
+.back2top-goldenRod:hover {
+    background: rgba(218, 165, 32,1);
+}
+.back2top-goldenRod i {
+    line-height: 40px;
+    color: #fff;
+}
+.back2top-goldenRod-extra {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    animation-name: back2top-goldenRod-extra-animation;
+    animation-duration: 3s;
+}
+@keyframes back2top-goldenRod-extra-animation {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 800px;
+    }
+}
+#blog-goldenRod-version .banner-blog-text a:hover {
+	color: #DAA520;
+	transition: all linear 0.3s;
+}
+#blog-goldenRod-version .form-inline button:hover {
+	background: #DAA520;
+	transition: all linear 0.3s;
+}
+#blog-goldenRod-version #blog-area-span-three {
+	color: #DAA520;
+}
+#blog-goldenRod-version #blog-area-span-one-one {
+	color: #DAA520;
+}
+#blog-goldenRod-version #blog-area-span-one-one:hover {
+	color: #444;
+	transition: all linear 0.3s;
+}
+#blog-goldenRod-version .spacer {
+	background: #DAA520;
+}
+#blog-goldenRod-version .blog-desc-two {
+	border-left: 5px solid #DAA520;
+}
+#blog-goldenRod-version .blog-desc-links a:hover {
+	background: #DAA520;
+	color: #fff;
+}
+#blog-goldenRod-version .blog-desc-post-swap-link a:hover{
+	background: #DAA520;
+}
+#blog-goldenRod-version .comment-one-right-social a:hover i {
+	color: #DAA520;
+}
+#blog-goldenRod-version #form2 button a:hover {
+	background: #DAA520;
+	transition: all linear 0.3s;
+}
+#blog-goldenRod-version .spacer-for-search {
+	background: #DAA520;
+}
+#blog-goldenRod-version .spacer-for-recent-post {
+	background: #DAA520;
+}
+#blog-goldenRod-version .recent-posts-item-right a:hover {
+	color: #DAA520;
+}
+#blog-goldenRod-version .social-spacer {
+	background: #DAA520;
+}
+#blog-goldenRod-version .side-bar-spacer {
+	background: #DAA520;
+}
+#blog-goldenRod-version .archive-spacer {
+	background: #DAA520;
+}
+#blog-goldenRod-version .side-bar-dates-spacer {
+	background: #DAA520;
+}
+#blog-goldenRod-version .side-bar-dates a:hover {
+	color: #DAA520;
+}
+#blog-goldenRod-version .popular-pages-links a:hover {
+	background: #DAA520;
+	transition: all linear 0.3s;
+}
+#blog-goldenRod-version #footer a:hover i {
+    color: #DAA520;
+}
+#blog-goldenRod-version #comment2 {
+        width: 100%;
+    }
+/*=====##########========blog-goldenRod-version page design ends here=========##########=============*/
+
+/*=======###########=========index-skyblue-version css strats here=========#############=========*/
+
+#skyblue-version .menu-bg .navbar .navbar-brand{
+    color: #fff;
+}
+#skyblue-version .banner-hire-me a:hover {
+    background: skyblue; 
+}
+#skyblue-version .banner-button a:hover {
+    background: skyblue;
+    transition: all linear 0.3s;
+}
+#skyblue-version .portfolio-desc a {
+	background: skyblue;
+}
+#skyblue-version .portfolio-desc a:hover {
+	background: transparent;
+	border: 2px solid skyblue;
+	color: skyblue;
+}
+#skyblue-version .navbar-nav .nav-item .nav-link:hover {
+	color: skyblue;
+	transition: all linear 0.3s;
+}
+#skyblue-version .navbar-nav .nav-item .nav-link:hover:before {
+    background: skyblue;
+}
+#skyblue-version .navbar-nav .nav-item .nav-link.active {
+	color: skyblue;
+}
+#skyblue-version .menu-bg {
+	background: skyblue;
+}
+#skyblue-version .menu-bg .navbar-nav .nav-item .nav-link {
+	color: #fff;
+}
+#skyblue-version .menu-bg .navbar-nav .nav-item .nav-link:hover:before {
+    opacity: 1;
+    width: 20px;
+    background: #fff;
+}
+#skyblue-version .menu-bg .navbar-nav .nav-item .nav-link.active:before {
+    background: #fff;
+} 
+#skyblue-version .portfolio-desc h6 span {
+	color: skyblue;
+}
+#skyblue-version .back2top i {
+	background: rgba(135, 206, 235, 0.7);
+}
+#skyblue-version .back2top:hover i{
+	background: skyblue;
+	color: #fff;
+}
+#skyblue-version .service-1-item i,#skyblue-version .service-2-item i,
+#skyblue-version .service-3-item i,#skyblue-version .service-4-item i {
+	color: skyblue;
+}
+#skyblue-version .service-item-icon i {
+	color: skyblue;
+}
+#skyblue-version .service-1-item #p1::before {
+	background: skyblue;
+	opacity: 0.5;
+}
+#skyblue-version .service-2-item #p1::before {
+	background: skyblue;
+	opacity: 0.5;
+}
+#skyblue-version .service-3-item #p1::before {
+	background: skyblue;
+	opacity: 0.5;
+}
+#skyblue-version .service-4-item #p1::before {
+	background: skyblue;
+	opacity: 0.5;
+}
+#skyblue-version .progress-1-extra::before {
+	background-color: skyblue;
+}
+#skyblue-version .progress-2-extra::before {
+	background-color: skyblue;
+}
+#skyblue-version .progress-3-extra::before {
+	background-color: skyblue;
+}
+#skyblue-version .progress-4-extra::before {
+	background-color: skyblue;
+}
+#skyblue-version .counter-item-1 i,#skyblue-version .counter-item-2 i,
+#skyblue-version .counter-item-3 i,#skyblue-version .counter-item-4 i {
+	color: skyblue;
+}
+#skyblue-version .gal-buttons a:hover {
+	color: skyblue;
+}
+#skyblue-version .gal-before-1 {
+	background: rgba(135, 206, 235, 0.6);
+}
+#skyblue-version .gal-before-1 a:hover p {
+	color: skyblue;
+}
+#skyblue-version .gal-before-1 h6 {
+	color: #fff;
+}
+#skyblue-version .gal-buttons .mixitup-control-active {
+    color: skyblue;
+}
+#skyblue-version .team-member-1 {
+	background: rgba(135, 206, 235, 0.8);
+}
+#skyblue-version .team-member-1 h3 {
+	color: #fff;
+}
+#skyblue-version .team-member-1 span {
+	color: rgba(255, 255, 255, 0.8);
+}
+#skyblue-version .hire-us-2 a {
+	border: 2px solid skyblue;
+}
+#skyblue-version .hire-us-2 a:hover {
+	background: skyblue;
+}
+#skyblue-version .left {
+	background: rgba(135, 206, 235, 0.7);
+}
+#skyblue-version .left:hover {
+	background: skyblue;
+}
+#skyblue-version .right {
+	background: rgba(135, 206, 235, 0.7);
+}
+#skyblue-version .right:hover {
+	background: skyblue;
+}
+#skyblue-version .blog-post-item a:hover h2{
+    color: skyblue; 
+}
+#skyblue-version .blog-post-item #blog-span-2 {
+	color: skyblue;
+}
+#skyblue-version .blog-post-item #blog-span-2:hover {
+	color: #444;
+}
+#skyblue-version .contact-form form button {
+	background: rgba(135, 206, 235, 0.7);
+}
+#skyblue-version .contact-form form button:hover {
+	background: skyblue;
+}
+#skyblue-version ::placeholder {
+    color: #666;
+}
+#skyblue-version .contact-info-item-left i {
+	border: 1px solid skyblue;
+	color: skyblue;
+}
+#skyblue-version .footer a:hover i {
+	color: skyblue;
+}
+/*=======###########=========index-skyblue-version css ends here=========#############=========*/
+
+/*=====###########========blog-skyblue-version page design starts here=========#########=============*/
+.menu-bg-blog-skyblue{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: skyblue;
+    transition: all linear 0.3s;
+    animation-name: menu-skyblue-scroll-bg;
+    animation-duration: 1s;
+    z-index: 9999;
+}
+@keyframes menu-skyblue-scroll-bg {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 0px;
+    }
+}
+.back2top-skyblue {
+    width: 40px;
+    height: 40px;
+    background: rgba(135, 206, 235, 0.70);
+    /*position: relative;*/
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all linear 0.3s;
+    z-index: 999;
+    display: none;
+}
+.back2top-skyblue:hover {
+    background: rgba(135, 206, 235, 1);
+}
+.back2top-skyblue i {
+    line-height: 40px;
+    color: #fff;
+}
+.back2top-skyblue-extra {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    animation-name: back2top-skyblue-extra-animation;
+    animation-duration: 3s;
+}
+@keyframes back2top-skyblue-extra-animation {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 800px;
+    }
+}
+
+#blog-skyblue-version .banner-blog-text a:hover {
+	color: skyblue;
+	transition: all linear 0.3s;
+}
+#blog-skyblue-version .form-inline button:hover {
+	background: skyblue;
+	transition: all linear 0.3s;
+}
+#blog-skyblue-version #blog-area-span-three {
+	color: skyblue;
+}
+#blog-skyblue-version #blog-area-span-one-one {
+	color: skyblue;
+}
+#blog-skyblue-version #blog-area-span-one-one:hover {
+	color: #444;
+	transition: all linear 0.3s;
+}
+#blog-skyblue-version .spacer {
+	background: skyblue;
+}
+#blog-skyblue-version .blog-desc-two {
+	border-left: 5px solid skyblue;
+}
+#blog-skyblue-version .blog-desc-links a:hover {
+	background: skyblue;
+	color: #fff;
+}
+#blog-skyblue-version .blog-desc-post-swap-link a:hover{
+	background: skyblue;
+}
+#blog-skyblue-version .comment-one-right-social a:hover i {
+	color: skyblue;
+}
+#blog-skyblue-version #form2 button a:hover {
+	background: skyblue;
+	transition: all linear 0.3s;
+}
+#blog-skyblue-version .spacer-for-search {
+	background: skyblue;
+}
+#blog-skyblue-version .spacer-for-recent-post {
+	background: skyblue;
+}
+#blog-skyblue-version .recent-posts-item-right a:hover {
+	color: skyblue;
+}
+#blog-skyblue-version .social-spacer {
+	background: skyblue;
+}
+#blog-skyblue-version .side-bar-spacer {
+	background: skyblue;
+}
+#blog-skyblue-version .archive-spacer {
+	background: skyblue;
+}
+#blog-skyblue-version .side-bar-dates-spacer {
+	background: skyblue;
+}
+#blog-skyblue-version .side-bar-dates a:hover {
+	color: skyblue;
+}
+#blog-skyblue-version .popular-pages-links a:hover {
+	background: skyblue;
+	transition: all linear 0.3s;
+}
+#blog-skyblue-version #footer a i:hover {
+    color: skyblue;
+}
+#blog-skyblue-version #comment2 {
+        width: 100%;
+    }
+/*=====##########========blog-skyblue-version page design ends here==========#######============*/
+
+/*----=====##########=====-------color-switcher css starts here------========###########======-----*/
+.ColorSwitcher__switch {
+	display: block;
+}
+/*----==========##########=====-------color-switcher css ends here------============###########-----*/
+
+/*=======================preloader css starts here========================================*/
+.preloader {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 999999999;
+    background: #fff;
+}
+.preloader img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/*=======================preloader css ends here========================================*/
+
+/*-----=========########=====------------back2top css starts here---------======#########=====--------*/
+
+.back2top {
+    position: relative;
+    right: 40px;
+    bottom: 40px;
+    z-index: 999;
+    display: none;
+}
+.back2top i{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #222;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    transition: all linear 0.3s;
+}
+.back2top:hover i{
+    background-color: #E41919;
+}
+.back2top-extra {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    animation-name: back2top-extra-animation;
+    animation-duration: 3s;
+}
+@keyframes back2top-extra-animation {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 800px;
+    }
+}
+
+/*-----======########------------back2top css ends here---------#########=======--------*/
+
+/*-----########=========------------menu css starts here---------#########===========--------*/
+#menu i {
+    font-size: 40px;
+    text-align: center;
+    transition: all linear 0.3s;
+}
+.main-menu-section {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.menu-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    transition: all linear 0.3s;
+    animation-name: menu-scroll-bg;
+    animation-duration: 1s;
+    z-index: 9999;
+}
+@keyframes menu-scroll-bg {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 0px;
+    }
+}
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    margin-right: 20px;
+    position: relative;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+}
+.menu-bg .navbar-nav .nav-item .nav-link {
+    color: #222;
+}
+.hhh .navbar-nav #a1{
+    margin-left: 75%;
+}
+.navbar .navbar-brand {
+    color: #fff;
+}
+.menu-bg .navbar .navbar-brand{
+    color: #222;
+}
+.navbar-nav .nav-item .nav-link:before {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: transparent;
+    z-index: 999;
+    top: 50%;
+    left: -25%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: all linear 0.5s;
+}
+.navbar-nav .nav-item .nav-link:hover:before {
+    opacity: 1;
+    width: 20px;
+    background: #fff;
+}
+.menu-bg .navbar-nav .nav-item .nav-link:hover:before {
+    opacity: 1;
+    width: 20px;
+    background: #222;
+}
+.navbar-nav .nav-item .nav-link.active {
+    color: #dc3545;
+}
+.navbar-nav .nav-item .nav-link.active:before {
+    opacity: 1;
+    width: 20px;
+    background: #fff;
+}
+.menu-bg .navbar-nav .nav-item .nav-link.active:before {
+    opacity: 1;
+    width: 20px;
+    background: #444;
+} 
+
+/*-----########=======------------menu css ends here---------#########========--------*/
+
+/*------###########==========------my-banner css starts--------======############-----*/
+#my-banner {
+    background: url(../images/images2/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+}
+#my-banner:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 34, 34, 0.5);
+    top: 0;
+    left: 0;
+}
+#particleCanvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.banner {
+    width: 100%;
+    text-align: center;
+    margin-top: 250px;
+}
+.banner-2 {
+    width: 100%;
+    text-align: right;
+    margin-top: 1%;
+}
+.banner-2 h5 {
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+.banner-3 {
+    width: 100%;
+    text-align: left;
+}
+.banner-3 h4 {
+    color: #fff;
+    padding-left: 1%;
+    font-size: 50px;
+}
+.banner-button {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.banner-button-spacer {
+    width: 100%;
+    height: 60px;
+}
+.banner h1{
+    color: #fff;
+    font-size: 44px;
+	font-weight: 800;
+    text-transform: capitalize;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.5;
+}
+.banner-button a {
+    border: 1px solid #ccc9c9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: all linear 0.3s;
+}
+.banner-button a i {
+    color: #fff;
+    font-size: 18px;
+}
+.banner-button a:hover {
+    background: #e23e3e;
+    border: 0;
+}
+.banner h6 {
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+.banner span {
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+.banner-paragraph {
+    /*background: purple;*/
+}
+.banner-hire-me {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.banner-paragraph h6 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    padding-top: 30px;  
+    margin: 0px 150px;
+    letter-spacing: 2px;
+}
+.banner-hire-me a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background: rgba(34, 34, 34, 0.5);
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+    border-radius: 5px; 
+    transition: all linear 0.3s;
+}
+.banner-hire-me a:hover {
+    background: skyblue;
+    border: 0;
+}
+.banner-hire-me a i {
+    font-size: 20px;
+    padding-right: 10px;
+    transition: all linear 0.3s;
+}
+.banner-hire-me a:hover i {
+    /*color: orange;*/
+    transform: scale(1.3);
+}
+
+/*------=========###########=======------my-banner css ends--------=======############===========-----*/
+
+/*----========###########======-----auto type css starts here-----=======##########=========------*/
+.typed_wrap {
+	display: block;
+	border: 4px solid #ecf0f1;
+	width: 290px;
+	height: auto;
+	padding: 30px;
+	/*centers it in the .banner*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+.typed_wrap h1 {
+	display: inline;
+}
+
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/*----=========##########=======---------auto type css ends here-----=======#########==========--------*/
+
+
+
+/*------========###########=======------------portfolio starts here---------======###########========--------*/
+
+#portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.portfolio-image {
+    background: transparent;
+    transition: all linear 0.3s;
+}
+.portfolio-image-extra {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    animation-name: portfolio-image-extra-animation;
+    animation-duration: 2s;
+}
+@keyframes portfolio-image-extra-animation {
+    0% {
+        bottom: -300px;
+        opacity: 0;
+    }
+    50%{
+        bottom: -150px;
+        opacity: 0.3;
+    }
+    100% {
+        bottom: 0px;
+        opacity: 0.5;
+    }
+}
+.portfolio-desc {
+    background: transparent;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 117px;
+    transition: all linear 0.3s;
+}
+.portfolio-desc h2{
+    font-size: 26px;
+    color: #252525;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.5;
+}
+.portfolio-desc p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 27px;
+    color: #666;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.portfolio-desc h6 span {
+    color: #E41919;
+}
+.portfolio-desc a {
+    color: #fff;
+    background-color: #222;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 15px 35px;
+    text-align: center;
+    border-radius: 3px;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    transition: all linear 0.3s;
+}
+.portfolio-desc a:hover {
+    text-decoration: none;
+    background: #E41919;
+}
+.portfolio-desc p:last-child {
+    color: red;
+    margin-top: 31px;
+}
+/*------======###########-----------portfolio ends here-----------========#############----------*/
+
+/*------=======###########-----------service-1 starts here-----------======#############----------*/
+#service-1 {
+    background-color: #F6F6F6;
+}
+.service-1-item,.service-2-item,.service-3-item,.service-4-item {
+    padding-top: 120px;
+    padding-bottom: 105px;
+    transition: all linear 0.3s;
+}
+.service-1-item-extra {
+    
+    position: relative;
+    left: 0;
+    bottom: 0;
+    animation-name: service-1-item-extra-animation;
+    animation-duration: 3s;
+    transition: all linear 0.3s;
+}
+@keyframes service-1-item-extra-animation {
+    from {
+        bottom: -150px
+    }
+    to
+    {
+        bottom: 0px;
+    }
+}
+.service-2-item-extra {
+    
+    position: relative;
+    left: 0;
+    top: 0;
+    animation-name: service-2-item-extra-animation;
+    animation-duration: 3s;
+    transition: all linear 0.3s;
+}
+@keyframes service-2-item-extra-animation {
+    from {
+        top: -150px
+    }
+    to
+    {
+        top: 0px;
+    }
+}
+.service-3-item-extra {
+    
+    position: relative;
+    left: 0;
+    bottom: 0;
+    animation-name: service-3-item-extra-animation;
+    animation-duration: 3s;
+    transition: all linear 0.3s;
+}
+@keyframes service-3-item-extra-animation {
+    from {
+        bottom: -150px
+    }
+    to
+    {
+        bottom: 0px;
+    }
+}
+.service-4-item-extra {
+    
+    position: relative;
+    left: 0;
+    top: 0;
+    animation-name: service-4-item-extra-animation;
+    animation-duration: 3s;
+    transition: all linear 0.3s;
+}
+@keyframes service-4-item-extra-animation {
+    from {
+        top: -150px
+    }
+    to
+    {
+        top: 0px;
+    }
+}
+.service-1-item i {
+    font-size: 36px;
+}
+.service-1-item #p1 {
+    font-size: 20px;
+    color: #222;
+    padding-top: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+.service-1-item #p1:before {
+    position: absolute;
+    content: '';
+    border: 0;
+    left: 10px;
+    top: 235px;
+    width: 90%;
+    height: 2px;
+    background: #DDDDDD;
+}
+.service-1-item h6 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+	font-weight: 500;
+	color: #111;
+    padding-top: 30px;
+}
+.service-1-item #h6-2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+	font-weight: 500;
+	color: #111;
+    padding-top: 32px;
+}
+.service-1-item #p2 {
+    color: #666;
+    font-size: 13px;
+    padding-top: 3px;
+}
+.service-1-item .progress {
+    margin-top: 15px;
+}
+.service-1-item #h6-progress-title {
+    color: #444;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+.service-1-item span {
+    float: right;
+}
+.service-2-item i {
+    font-size: 36px;
+    color: #222;
+}
+.service-2-item #p1 {
+    font-size: 20px;
+    color: #222;
+    padding-top: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+.service-2-item #p1:before {
+    position: absolute;
+    content: '';
+    border: 0;
+    left: 10px;
+    top: 235px;
+    width: 90%;
+    height: 2px;
+    background: #DDDDDD;
+}
+.service-2-item h6 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+	font-weight: 500;
+	color: #111;
+    padding-top: 30px;
+}
+.service-2-item #h6-2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+	font-weight: 500;
+	color: #111;
+    padding-top: 32px;
+}
+.service-2-item #p3 {
+    color: #666;
+    font-size: 13px;
+    padding-top: 3px;
+}
+.service-3-item i {
+    font-size: 36px;
+    color: #222;
+}
+.service-3-item #p1 {
+    font-size: 20px;
+    color: #222;
+    padding-top: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+.service-3-item #p1:before {
+    position: absolute;
+    content: '';
+    border: 0;
+    left: 10px;
+    top: 235px;
+    width: 90%;
+    height: 2px;
+    background: #DDDDDD;
+}
+.service-3-item h6 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+	font-weight: 500;
+	color: #111;
+    padding-top: 30px;
+}
+.service-3-item #h6-2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+	font-weight: 500;
+	color: #111;
+    padding-top: 32px;
+}
+.service-3-item #p4 {
+    color: #666;
+    font-size: 13px;
+    padding-top: 3px;
+}
+.service-4-item i {
+    font-size: 36px;
+    color: #222;
+}
+.service-4-item #p1 {
+    font-size: 20px;
+    color: #222;
+    padding-top: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+.service-4-item #p1:before {
+    position: absolute;
+    content: '';
+    border: 0;
+    left: 10px;
+    top: 235px;
+    width: 90%;
+    height: 2px;
+    background: #DDDDDD;
+}
+.service-4-item h6 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+	font-weight: 500;
+	color: #111;
+    padding-top: 30px;
+}
+.service-4-item #h6-2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+	font-weight: 500;
+	color: #111;
+    padding-top: 32px;
+}
+.progress-1 {
+    height: 3px;
+    background: transparent;
+    margin-top: 20px;
+}
+.progress-1-extra {
+    height: 3px;
+    background: transparent;
+    margin-top: 20px;
+    position: relative;
+}
+.progress-1-extra:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background-color:  #343a40;
+    animation-name: progress-1-extra-animation;
+    animation-duration: 4s;
+    
+}
+@keyframes progress-1-extra-animation{
+    0% {
+        width: 5%;
+    }
+    25% {
+        width: 25%;
+    }
+    50% {
+        width: 50%;
+    }
+    75%{
+        width: 60%;
+    }
+    80% {
+        width: 80%
+    }
+    100% {
+        width: 90%;
+    }
+}
+.progress-2 {
+    height: 3px;
+    background: transparent;
+    margin-top: 20px;
+}
+.progress-2-extra {
+    height: 3px;
+    background: transparent;
+    margin-top: 20px;
+    position: relative;
+}
+.progress-2-extra:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+    background-color:  #343a40;
+    animation-name: progress-2-extra-animation;
+    animation-duration: 4s;
+    
+}
+@keyframes progress-2-extra-animation{
+    0% {
+        width: 5%;
+    }
+    25% {
+        width: 25%;
+    }
+    50% {
+        width: 50%;
+    }
+    75%{
+        width: 60%;
+    }
+    80% {
+        width: 80%
+    }
+    100% {
+        width: 95%;
+    }
+}
+.progress-3 {
+    height: 3px;
+    background: transparent;
+    margin-top: 20px;
+}
+.progress-3-extra {
+    height: 3px;
+    background: transparent;
+    margin-top: 20px;
+    position: relative;
+}
+.progress-3-extra:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background-color:  #343a40;
+    animation-name: progress-3-extra-animation;
+    animation-duration: 4s;
+    
+}
+@keyframes progress-3-extra-animation{
+    0% {
+        width: 5%;
+    }
+    25% {
+        width: 25%;
+    }
+    50% {
+        width: 50%;
+    }
+    75%{
+        width: 60%;
+    }
+    100% {
+        width: 70%
+    }
+}
+.progress-4 {
+    height: 3px;
+    background: transparent;
+    margin-top: 20px;
+}
+.progress-4-extra {
+    height: 3px;
+    background: transparent;
+    margin-top: 20px;
+    position: relative;
+}
+.progress-4-extra:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 85%;
+    height: 100%;
+    background-color:  #343a40;
+    animation-name: progress-4-extra-animation;
+    animation-duration: 4s;
+    
+}
+@keyframes progress-4-extra-animation{
+    0% {
+        width: 5%;
+    }
+    25% {
+        width: 25%;
+    }
+    50% {
+        width: 50%;
+    }
+    75%{
+        width: 70%;
+    }
+    100% {
+        width: 85%
+    }
+}
+/*------========###########-----------service-1 item ends here-----------#############========----------*/
+
+/*------=======###########-----------service starts here-----------#############==========----------*/
+
+#service {
+    padding-top: 120px;
+    padding-bottom: 120px;
+   
+}
+.service-title {
+    padding-bottom: 70px;
+}
+.service-title h2{
+    font-weight: 800;
+    font-size: 45px;
+    color: #222;
+}
+.service-title p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 27px;
+    color: #666;
+}
+.service-item {
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(138,128,138,1);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(138,128,138,1);
+    box-shadow: 0px 0px 10px 2px rgb(173, 167, 173);
+    
+     transition: all linear 0.3s;
+}
+.service-item-extra {
+    position: relative;
+    left: 0;
+    top: 0;
+    animation-name: service-item-extra-animation;
+    animation-duration: 3s;
+}
+@keyframes service-item-extra-animation {
+    from {
+        left: -600px;
+    }
+    to {
+        left: 0px;
+    }
+}
+.service-item-two {
+    /*height: 182px;*/
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(138,128,138,1);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(138,128,138,1);
+    box-shadow: 0px 0px 10px 2px rgb(173, 167, 173);
+    
+     transition: all linear 0.3s;
+}
+.service-item-two-extra {
+    position: relative;
+    right: 0;
+    top: 0;
+    animation-name: service-item-two-extra-animation;
+    animation-duration: 3s;
+}
+@keyframes service-item-two-extra-animation {
+    from {
+        right: -600px;
+    }
+    to {
+        right: 0px;
+    }
+}
+.service-item-icon {
+    width: 100px;
+    height: 179px;
+    float: left;
+}
+.service-item-contents {
+    float: none; 
+}
+.service-item-icon i {
+    font-size: 56px;
+    padding-left: 30px;
+    padding-top: 30px;
+    display: inline-block;
+}
+.service-item-contents h3 {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #252525;
+    padding-top: 30px;
+}
+.service-item-contents p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #666;
+    margin: 0px 5px;
+    padding-bottom: 30px;
+}
+.service-item-contents-two h3 {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #252525;
+    padding-top: 30px;
+}
+.service-item-contents-two p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #666;
+    padding-bottom: 30px;
+    margin: 0px 5px;
+}
+
+
+/*------=====###########======-----------service ends here-----------======#############=======----------*/
+
+/*----===#############========-------counter css starts here------======###############=======-----------*/
+#counter {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(../images/images2/counter-img1.jpg);
+    position: relative;
+}
+#counter:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 34, 34, 0.8);
+}
+.counter-item-1{
+    transition: all linear 0.3s;
+    /*padding-top: 145px;
+    padding-bottom: 145px;*/
+    margin-left: 0px;
+    opacity: 0;
+}
+.counter-item-1 span {
+    font-size: 36px;
+    font-weight: 800;
+    color: #fff;
+}
+.counter-item-1 h3 {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 15px;
+}
+.counter-item-1 i {
+    font-size: 36px;
+    color: #fff;   
+}
+.counter-item-1-extra {
+    opacity: 1;
+    margin-left: 0px;
+    animation-name: counter-item-1-extra-animation;
+    animation-duration: 1s;
+}
+@keyframes counter-item-1-extra-animation {
+    0% {
+        margin-left: -1000px;
+        opacity: 0;
+    }
+    100%{
+        margin-left: 0px;
+        opacity: 0.5;
+    }
+}
+.counter-item-2{
+    transition: all linear 0.3s;
+    margin-right: 0px;
+    opacity: 0;
+}
+.counter-item-2 span {
+    font-size: 36px;
+    font-weight: 800;
+    color: #fff;
+}
+.counter-item-2 h3 {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 15px;
+}
+.counter-item-2 i {
+    font-size: 36px;
+    color: #fff;   
+}
+.counter-item-2-extra {
+    opacity: 1;
+    margin-right: 0px;
+    animation-name: counter-item-2-extra-animation;
+    animation-duration: 2s;
+}
+@keyframes counter-item-2-extra-animation {
+    0% {
+        margin-right: -1000px;
+        opacity: 0;
+    }
+    100%{
+        margin-right: 0px;
+        opacity: 0.5;
+    }
+}
+
+.counter-item-3{
+    transition: all linear 0.3s;
+    margin-left: 0px;
+    opacity: 0;
+}
+.counter-item-3 span {
+    font-size: 36px;
+    font-weight: 800;
+    color: #fff;
+}
+.counter-item-3 h3 {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 15px;
+}
+.counter-item-3 i {
+    font-size: 36px;
+    color: #fff;   
+}
+.counter-item-3-extra {
+    opacity: 1;
+    margin-left: 0px;
+    animation-name: counter-item-3-extra-animation;
+    animation-duration: 3s;
+}
+@keyframes counter-item-3-extra-animation {
+    0% {
+        margin-left: -1000px;
+        opacity: 0;
+    }
+    100%{
+        margin-left: 0px;
+        opacity: 0.5;
+    }
+}
+.counter-item-4{
+    transition: all linear 0.3s;
+    margin-right: 0px;
+    opacity: 0;
+}
+.counter-item-4-extra {
+    opacity: 1;
+    margin-right: 0px;
+    animation-name: counter-item-4-extra-animation;
+    animation-duration: 4s;
+}
+@keyframes counter-item-4-extra-animation {
+    0% {
+        margin-right: -1000px;
+        opacity: 0;
+    }
+    100%{
+        margin-right: 0px;
+        opacity: 0.5;
+    }
+}
+.counter-item-4 span {
+    font-size: 36px;
+    font-weight: 800;
+    color: #fff;
+}
+.counter-item-4 h3 {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 15px;
+}
+.counter-item-4 i {
+    font-size: 36px;
+    color: #fff;   
+}
+
+
+/*----#############========-------counter css ends here------###############=========-----------*/
+
+/*----#############=======-------gallery css starts here------###############==========-----------*/
+#gallery {
+    padding-top: 105px;
+    padding-bottom: 100px;
+}
+.gal-title h2{
+    font-weight: 800;
+    font-size: 45px;
+    color: #222;
+}
+.gal-title p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 27px;
+    color: #666;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 7px;
+    padding-bottom: 50px;
+}
+.gal-item {
+    background: #c4acc4;
+    margin: 15px;
+    overflow: hidden;
+}
+.gal-buttons {
+    padding-bottom: 23px;
+}
+.gal-buttons a {
+    text-decoration: none;
+    color: #666;
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all linear 0.3s;
+}
+.gal-buttons a:hover {
+    color: #E41919;
+}
+.gal-item-1 img {
+    transition: all linear 0.3s;
+}
+.gal-item-1:hover img {
+    transform: scale(1.2);
+    transition: all linear 0.3s;
+}
+.gal-before-1 {
+    display: none;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    background: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all linear 0.3s;
+}
+.test {
+    display: none;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.gal-item-1:hover .gal-before-1{
+    display: block;
+}
+.gal-item-1:hover .test {
+    display: block;
+}
+.gal-before-1 p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.gal-before-1 h6 {
+    color: #ddd;
+    font-size: 14px;
+}
+.gal-before-1 a {
+    text-decoration: none;
+}
+.gal-before-1 a:hover p{
+    color: #E41919;
+    transition: all linear 0.3s;
+    text-decoration: none;
+}
+.vbox-overlay {
+    z-index: 99999;
+}
+
+.gal-buttons .mixitup-control-active {
+    color: red;
+}
+
+/*----#############=========-------gallery css ends here------###############=======-----------*/
+
+/*------################---------team css starts here------############===============--------*/
+#team {
+    padding-bottom: 70px;
+}
+.team-header h2{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    color: #222;
+}
+.team-header p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #666;
+}
+.team-member-1 {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	background: rgba(255, 255, 255, 0.8);
+	opacity: 0;
+	transition: all linear 0.3s;
+}
+.team-member:hover .team-member-1 {
+    opacity: 1;
+    left: 0px;
+    animation-name: team-member-1-animation;
+    animation-duration: 1.5s;
+}
+@keyframes team-member-1-animation {
+    from {
+        width:50%; 
+        transition: all linear 0.1s;
+    }
+    to {
+        width: 100%;
+        transition: all linear 0.1s;
+    }
+}
+
+.team-member-1 h3{
+    color: #222;
+    font-size: 22px;
+    font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    top: -10%;
+    left: 10%;
+    opacity: 0;
+    transition: all linear 1s;
+}
+.team-member-1 span {
+    color: #666;
+    position: absolute;
+    bottom: -10%;
+    left: 10%;
+    opacity: 0;
+    transition: all linear 1s;
+}
+.team-member:hover .team-member-1 h3 {
+    opacity: 1;
+    top: 74%;
+    animation-name: team-member-1-h3-animation;
+    animation-duration: 1s;
+}
+@keyframes team-member-1-h3-animation {
+    from {
+        top: -10%;
+        transition: all linear 0.3s;
+    }
+    to {
+        top: 75%;
+        transition: all linear 0.3s;
+    }
+    
+}
+.team-member:hover .team-member-1 span {
+    opacity: 1;
+    bottom: 14%;
+    animation-name: team-member-1-span-animation;
+    animation-duration: 1s;
+}
+@keyframes team-member-1-span-animation {
+    from {
+        bottom: -10%;
+        transition: all linear 0.3s;
+    }
+    to {
+        bottom: 15%;
+        transition: all linear 0.3s;
+    }
+} 
+.team-member-fadein-1-extra {
+    animation-name: team-member-fadein-1-extra-animation;
+    animation-duration: 2s;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+@keyframes team-member-fadein-1-extra-animation {
+    0% {
+        opacity: 0;
+        transition: all linear 0.5s;
+        bottom: -100px;
+    }
+    50% {
+        opacity: 0;
+        transition: all linear 0.3s;
+        bottom: -50px;
+    }
+    100% {
+        opacity: 0.5;
+        transition: all linear 0.5s;
+        bottom: 0px;
+    }
+}
+.team-member-fadein-2-extra {
+    animation-name: team-member-fadein-2-extra-animation;
+    animation-duration: 3s;
+    position: relative;
+    /*top: 0px;*/
+    left: 0px;
+    bottom: 0;
+}
+@keyframes team-member-fadein-2-extra-animation {
+   0% {
+        opacity: 0;
+        transition: all linear 0.5s;
+        bottom: -100px;
+    }
+    50% {
+        opacity: 0;
+        transition: all linear 0.3s;
+        bottom: -50px;
+    }
+    100% {
+        opacity: 0.5;
+        transition: all linear 0.5s;
+        bottom: 0px;
+    }
+}
+.team-member-fadein-3-extra {
+    animation-name: team-member-fadein-3-extra-animation;
+    animation-duration: 4s;
+    position: relative;
+    left: 0px;
+    bottom: 0;
+}
+@keyframes team-member-fadein-3-extra-animation {
+    0% {
+        opacity: 0;
+        transition: all linear 0.5s;
+        bottom: -100px;
+    }
+    50% {
+        opacity: 0;
+        transition: all linear 0.3s;
+        bottom: -50px;
+    }
+    100% {
+        opacity: 0.5;
+        transition: all linear 0.5s;
+        bottom: 0px;
+    }
+}
+
+/*------=====################======---------team css ends here------==========############=====--------*/
+
+/*------############=====---------hire-us css starts here------=======###########=========------------*/
+#hire-us {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #111111;
+    background: url(../images/images2/hire-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#hire-us:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 17, 17, 0.7);
+    top: 0;
+    left: 0;
+}
+#canvas2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.hire-us {
+    transition: all linear 1s;
+}
+.hire-us-1 h2{
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+.hire-us-2 a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background: transparent;
+    border: 2px solid #E41919;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: all linear 0.3s;
+}
+.hire-us-2 a:hover {
+    background: #E41919;
+    border: 0;
+}
+.hire-us-1-extra{
+    margin-left: 0px;
+    animation-name: hire-us-1-extra-animation;
+    animation-duration: 2s;
+    transition: all linear 0.3s;
+}
+@keyframes hire-us-1-extra-animation {
+    from {
+        margin-left: -1000px;
+    }
+    to {
+       margin-left: 0px; 
+    }
+}
+
+.hire-us-2-extra {
+    margin-right: 0px;
+    animation-name: hire-us-2-extra-animation;
+    animation-duration: 2s;
+    transition: all linear 0.3s;
+}
+@keyframes hire-us-2-extra-animation {
+    from {
+        margin-right: -1000px;
+    }
+    to {
+       margin-right: 0px; 
+    }
+}
+
+/*------############========---------hire-us css ends here------=========###########------------*/
+
+/*-----############----------testimonial css starts here-----#########---------*/
+#testimonial {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #fff;
+}
+.testimonial-heading h2 {
+    font-family: 'Work Sans', sans-serif;
+    color: #222;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 1.5;
+}
+.testimonial-heading p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #666;
+    padding-bottom: 60px;
+}
+.main-slider {
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(138,128,138,1);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(138,128,138,1);
+    box-shadow: 0px 0px 10px 2px rgb(173, 167, 173);
+}
+.slider-item i {
+    color: #fff;
+    font-size: 24px;
+    line-height: 50px;
+}
+.left {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #444;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    z-index: 99;
+    transition: all linear 0.3s;
+}
+.left:hover {
+    background: #E41919;
+}
+.right {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #444;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    z-index: 99;
+    transition: all linear 0.3s;
+}
+.right:hover {
+    background: #E41919;
+}
+.slider-item p{
+    padding-top: 60px;
+    padding-bottom: 55px;
+}
+.slider-item-text {
+    width: 50%;
+    margin-left: 25%;
+}
+.slider-img {
+    margin-top: 30px;
+}
+.main-slider:before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    z-index: 99;
+    border-bottom: 2px solid rgb(173, 167, 173);
+    border-right: 2px solid rgb(173, 167, 173);
+}
+.slider-image-item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.slider-image-item img {
+    border-radius: 50%;
+}
+.slick-slide img{
+    display: inline-block;
+}
+.slick-center.slider-image-item img{
+    transform: scale(1.4);
+    border: 1px solid red;
+    opacity: 100%;
+} 
+
+/*-----############=========----------testimonial css ends here-----#########=========---------*/
+
+/*-----###########=========----------blog css starts here-------###########=========-----------*/
+#blog {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #F6F6F6;
+}
+.blog-header h2 {
+    font-family: 'Work Sans', sans-serif;
+    color: #222;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 1.5;
+}
+.blog-header p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #666;
+    padding-bottom: 60px;
+}
+.blog-post-item {
+    background: #fff;
+}
+.blog-divider {
+    width: 90%;
+    height: 2px;
+    background: #ddd;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.blog-post-item-img {
+    overflow: hidden;
+}
+.blog-post-item img {
+    transition: all linear 0.3s;
+}
+
+.blog-post-item:hover .blog-post-item-img img {
+    transform: scale(1.1) rotate(-2deg);
+} 
+.blog-post-item a {
+    text-decoration: none;
+}
+.blog-post-item a:hover h2{
+    color: #E41919; 
+}
+.blog-post-item h2 {
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    color: #444444;
+    line-height: 1.5;
+    padding-top: 35px;
+    /*padding-left: 35px;*/
+    transition: all linear 0.3s;
+}
+.blog-post-item p {
+    padding-top: 25px;
+   /* padding-left: 35px;*/
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 27px;
+    color: #666;
+}
+#blog-area-span-one-one {
+	color: #E41919;
+}
+.blog-post-item #blog-span-1 {
+   color: #999; 
+   font-size: 12px;
+   padding-left: 35px;
+   padding-right: 25px;
+}
+.blog-post-item i {
+    padding-right: 5px;
+}
+.blog-post-item #blog-span-2 {
+    color: #E41919;
+    font-size: 12px;
+    transition: all linear 0.3s;
+}
+#blog-span-2:hover {
+    color: #222;
+}
+#dummy-h6 {
+    padding-top: 20px;
+}
+/*-----###########=========----------blog css ends here-------###########=========-----------*/
+
+
+/*-----###########==========---------contact css starts here------##########=========--------*/
+#contact {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.contact-form h2 {    
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1;
+    font-weight: 800;
+    font-size: 45px;
+    color: #222;
+    margin-bottom: 35px;
+}
+.contact-form form #name{
+    width: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #222;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid #ddd;
+}
+.contact-form form #email {
+    width: 45%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #222;
+    padding-left: 20px;
+    border: 1px solid #ddd;
+}
+.contact-form form #subject {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid #ddd;
+}
+.contact-form form #text-area {
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 1px solid #ddd;
+}
+.contact-form form button {
+    margin-top: 20px;
+    background: #212529;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 15px 35px;
+    border: 0;
+    border-radius: 3px;
+    transition: all linear 0.3s;
+}
+.contact-form form button a {
+    text-decoration: none;
+    color: #fff;
+}
+.contact-form form button:hover {
+    background: #E41919;
+}
+::placeholder {  
+    color: #666;
+}
+.contact-form-extra {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    animation-name: contact-form-extra-animation;
+    animation-duration: 3s;
+}
+@keyframes contact-form-extra-animation {
+    from {
+        left: -600px;
+    }
+    to {
+        left: 0px;
+    }
+}
+.contact-info-description {
+    margin-top: 10px;
+}
+.contact-info-item {
+    margin-top: 20px;
+}
+.contact-info-header h2 {
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1;
+    font-weight: 800;
+    font-size: 45px;
+    color: #222;
+}
+.contact-info-description p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 27px;
+    color: #666; 
+}
+.contact-info-item-left {
+    float: left;
+    width: 9%;
+}
+.contact-info-item-right {
+    float: left;
+    width: 91%;
+}
+.contact-info-item-left i{
+    border: 1px solid #E41919;
+	color: #E41919;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+}
+.contact-info-item-right h5 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 0.5;
+    font-family: 'Work Sans', sans-serif;
+    color: #444444;
+}
+.contact-info-item-right span {
+    font-size: 14px;
+    color: #8a8a8a;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.contact-info-extra {
+    position: relative;
+    top: 0;
+    right: 0;
+    animation-name: contact-info-extra-animation;
+    animation-duration: 3s;
+}
+@keyframes contact-info-extra-animation {
+    from {
+        right: -600px;
+    }
+    to {
+        right: 0px;
+    }
+} 
+
+/*-----###########=========---------contact css ends here------=========##########--------*/
+
+/*-----############========-------footer css starts here------#########==========----------*/
+#footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #111111; 
+}
+.footer a {
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+}
+.footer a i {
+    color: #e5dbdb;
+}
+.footer a:hover i {
+    color: #E41919;
+    transition: all linear 0.3s;
+}
+.footer p {
+	color: #dcdcdc;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 27px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 25px;
+}
+.footer-extra {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    animation-name: footer-extra-animation;
+    animation-duration: 2s;
+}
+@keyframes footer-extra-animation {
+    from {
+        bottom: -100px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0px;
+        opacity: 0.3;
+    }
+}
+/*-----############==========-------footer css ends here------#########==========----------*/

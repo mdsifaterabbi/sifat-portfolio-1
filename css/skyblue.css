@@ -1,0 +1,213 @@
+.banner-button a:hover {
+    background: skyblue;
+    transition: all linear 0.3s;
+}
+.portfolio-desc a {
+	background: skyblue;
+}
+.portfolio-desc a:hover {
+	background: transparent;
+	border: 2px solid skyblue;
+	color: skyblue;
+}
+.navbar-nav .nav-item .nav-link:hover {
+	color: skyblue;
+	transition: all linear 0.3s;
+}
+.navbar-nav .nav-item .nav-link:hover:before {
+    background: skyblue;
+}
+.navbar-nav .nav-item .nav-link.active {
+	color: skyblue;
+}
+.menu-bg {
+	background: skyblue;
+}
+.menu-bg .navbar-nav .nav-item .nav-link {
+	color: #fff;
+}
+.menu-bg .navbar-nav .nav-item .nav-link:hover:before {
+    opacity: 1;
+    width: 20px;
+    background: #fff;
+}
+.menu-bg .navbar-nav .nav-item .nav-link.active:before {
+    background: #fff;
+} 
+.portfolio-desc h6 span {
+	color: skyblue;
+}
+.back2top i {
+	background: rgba(135, 206, 235, 0.7);
+}
+.back2top:hover i{
+	background: skyblue;
+	color: #fff;
+}
+.service-1-item i,.service-2-item i,.service-3-item i,.service-4-item i {
+	color: skyblue;
+}
+.service-item-icon i {
+	color: skyblue;
+}
+.service-1-item #p1::before {
+	background: skyblue;
+	opacity: 0.5;
+}
+.service-2-item #p1::before {
+	background: skyblue;
+	opacity: 0.5;
+}
+.service-3-item #p1::before {
+	background: skyblue;
+	opacity: 0.5;
+}
+.service-4-item #p1::before {
+	background: skyblue;
+	opacity: 0.5;
+}
+.progress-1-extra::before {
+	background-color: skyblue;
+}
+.progress-2-extra::before {
+	background-color: skyblue;
+}
+.progress-3-extra::before {
+	background-color: skyblue;
+}
+.progress-4-extra::before {
+	background-color: skyblue;
+}
+.counter-item-1 i,.counter-item-2 i,
+.counter-item-3 i,.counter-item-4 i {
+	color: skyblue;
+}
+.gal-buttons a:hover {
+	color: skyblue;
+}
+.gal-before-1 {
+	background: rgba(135, 206, 235, 0.6);
+}
+.gal-before-1 a:hover p {
+	color: skyblue;
+}
+.gal-before-1 h6 {
+	color: #fff;
+}
+.gal-buttons .mixitup-control-active {
+    color: skyblue;
+}
+.team-member-1 {
+	background: rgba(135, 206, 235, 0.8);
+}
+.team-member-1 h3 {
+	color: #fff;
+}
+.team-member-1 span {
+	color: rgba(255, 255, 255, 0.8);
+}
+.hire-us-2 a {
+	border: 2px solid skyblue;
+}
+.hire-us-2 a:hover {
+	background: skyblue;
+}
+.left {
+	background: rgba(135, 206, 235, 0.7);
+}
+.left:hover {
+	background: skyblue;
+}
+.right {
+	background: rgba(135, 206, 235, 0.7);
+}
+.right:hover {
+	background: skyblue;
+}
+.blog-post-item a:hover h2{
+    color: skyblue; 
+}
+.blog-post-item #blog-span-2 {
+	color: skyblue;
+}
+.blog-post-item #blog-span-2:hover {
+	color: #444;
+}
+.contact-form form button {
+	background: rgba(135, 206, 235, 0.7);
+}
+.contact-form form button:hover {
+	background: skyblue;
+}
+.contact-info-item-left i {
+	border: 1px solid skyblue;
+	color: skyblue;
+}
+.footer a:hover i {
+	color: skyblue;
+}
+
+/*=============blog page design======================*/
+.banner-blog-text a:hover {
+	color: skyblue;
+	transition: all linear 0.3s;
+}
+.form-inline button:hover {
+	background: skyblue;
+	transition: all linear 0.3s;
+}
+#blog-area-span-three {
+	color: skyblue;
+}
+#blog-area-span-one-one {
+	color: skyblue;
+}
+#blog-area-span-one-one:hover {
+	color: #444;
+	transition: all linear 0.3s;
+}
+.spacer {
+	background: skyblue;
+}
+.blog-desc-two {
+	border-left: 5px solid skyblue;
+}
+.blog-desc-links a:hover {
+	background: skyblue;
+	color: #fff;
+}
+.blog-desc-post-swap-link a:hover{
+	background: skyblue;
+}
+.comment-one-right-social a:hover i {
+	color: skyblue;
+}
+#form2 button a:hover {
+	background: skyblue;
+	transition: all linear 0.3s;
+}
+.spacer-for-search {
+	background: skyblue;
+}
+.spacer-for-recent-post {
+	background: skyblue;
+}
+.recent-posts-item-right a:hover {
+	color: skyblue;
+}
+.social-spacer {
+	background: skyblue;
+}
+.side-bar-spacer {
+	background: skyblue;
+}
+.archive-spacer {
+	background: skyblue;
+}
+.side-bar-dates-spacer {
+	background: skyblue;
+}
+.popular-pages-links a:hover {
+	background: skyblue;
+	transition: all linear 0.3s;
+}

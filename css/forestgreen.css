@@ -1,0 +1,213 @@
+.banner-button a:hover {
+    background: #0B6623;
+    transition: all linear 0.3s;
+}
+.portfolio-desc a {
+	background: #0B6623;
+}
+.portfolio-desc a:hover {
+	background: transparent;
+	border: 2px solid #0B6623;
+	color: #0B6623;
+}
+.navbar-nav .nav-item .nav-link:hover {
+	color: #0B6623;
+	transition: all linear 0.3s;
+}
+.navbar-nav .nav-item .nav-link:hover:before {
+    background: #0B6623;
+}
+.navbar-nav .nav-item .nav-link.active {
+	color: #0B6623;
+}
+.menu-bg {
+	background: #0B6623;
+}
+.menu-bg .navbar-nav .nav-item .nav-link {
+	color: #fff;
+}
+.menu-bg .navbar-nav .nav-item .nav-link:hover:before {
+    opacity: 1;
+    width: 20px;
+    background: #fff;
+}
+.menu-bg .navbar-nav .nav-item .nav-link.active:before {
+    background: #fff;
+} 
+.portfolio-desc h6 span {
+	color: #0B6623;
+}
+.back2top i {
+	background: rgba(11, 102, 35, 0.7);
+}
+.back2top:hover i{
+	background: #0B6623;
+	color: #fff;
+}
+.service-1-item i,.service-2-item i,.service-3-item i,.service-4-item i {
+	color: #0B6623;
+}
+.service-item-icon i {
+	color: #0B6623;
+}
+.service-1-item #p1::before {
+	background: #0B6623;
+	opacity: 0.5;
+}
+.service-2-item #p1::before {
+	background: #0B6623;
+	opacity: 0.5;
+}
+.service-3-item #p1::before {
+	background: #0B6623;
+	opacity: 0.5;
+}
+.service-4-item #p1::before {
+	background: #0B6623;
+	opacity: 0.5;
+}
+.progress-1-extra::before {
+	background-color: #0B6623;
+}
+.progress-2-extra::before {
+	background-color: #0B6623;
+}
+.progress-3-extra::before {
+	background-color: #0B6623;
+}
+.progress-4-extra::before {
+	background-color: #0B6623;
+}
+.counter-item-1 i,.counter-item-2 i,
+.counter-item-3 i,.counter-item-4 i {
+	color: #0B6623;
+}
+.gal-buttons a:hover {
+	color: #0B6623;
+}
+.gal-before-1 {
+	background: rgba(11, 102, 35, 0.6);
+}
+.gal-before-1 a:hover p {
+	color: #0B6623;
+}
+.gal-before-1 h6 {
+	color: #fff;
+}
+.gal-buttons .mixitup-control-active {
+    color: #0B6623;
+}
+.team-member-1 {
+	background: rgba(11, 102, 35, 0.8);
+}
+.team-member-1 h3 {
+	color: #fff;
+}
+.team-member-1 span {
+	color: #dbc6c6;
+}
+.hire-us-2 a {
+	border: 2px solid #0B6623;
+}
+.hire-us-2 a:hover {
+	background: #0B6623;
+}
+.left {
+	background: rgba(11, 102, 35, 0.8);
+}
+.left:hover {
+	background: #0B6623;
+}
+.right {
+	background: rgba(11, 102, 35, 0.8);
+}
+.right:hover {
+	background: #0B6623;
+}
+.blog-post-item a:hover h2{
+    color: #0B6623; 
+}
+.blog-post-item #blog-span-2 {
+	color: #0B6623;
+}
+.blog-post-item #blog-span-2:hover {
+	color: #444;
+}
+.contact-form form button {
+	background: rgba(11, 102, 35, 0.8);
+}
+.contact-form form button:hover {
+	background: #0B6623;
+}
+.contact-info-item-left i {
+	border: 1px solid #0B6623;
+	color: #0B6623;
+}
+.footer a:hover i {
+	color: #0B6623;
+}
+
+/*=============blog page design======================*/
+.banner-blog-text a:hover {
+	color: #0B6623;
+	transition: all linear 0.3s;
+}
+.form-inline button:hover {
+	background: #0B6623;
+	transition: all linear 0.3s;
+}
+#blog-area-span-three {
+	color: #0B6623;
+}
+#blog-area-span-one-one {
+	color: #0B6623;
+}
+#blog-area-span-one-one:hover {
+	color: #444;
+	transition: all linear 0.3s;
+}
+.spacer {
+	background: #0B6623;
+}
+.blog-desc-two {
+	border-left: 5px solid #0B6623;
+}
+.blog-desc-links a:hover {
+	background: #0B6623;
+	color: #fff;
+}
+.blog-desc-post-swap-link a:hover{
+	background: #0B6623;
+}
+.comment-one-right-social a:hover i {
+	color: #0B6623;
+}
+#form2 button a:hover {
+	background: #0B6623;
+	transition: all linear 0.3s;
+}
+.spacer-for-search {
+	background: #0B6623;
+}
+.spacer-for-recent-post {
+	background: #0B6623;
+}
+.recent-posts-item-right a:hover {
+	color: #0B6623;
+}
+.social-spacer {
+	background: #0B6623;
+}
+.side-bar-spacer {
+	background: #0B6623;
+}
+.archive-spacer {
+	background: #0B6623;
+}
+.side-bar-dates-spacer {
+	background: #0B6623;
+}
+.popular-pages-links a:hover {
+	background: #0B6623;
+	transition: all linear 0.3s;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Obi Plabon">
+
+    <title>Color Switcher by Obi Plabon</title>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/color-default.css">
+
+    <link rel="stylesheet" href="dist/color-switcher.css">
+</head>
+<body>
+    <div class="Container">
+        <h1>Color Switcher Demo</h1>
+        <p>Hi, this is <a href="https://fb.me/obiPlabon" target="_blank">Obi Plabon</a> from Bangladesh. And one of my favorite programming language is JavaScipt. I feel like JavaScript works the way I think! JavaScript understand what I need and it shows me the simple solution. And <strong>Color Switcher</strong> is one of those solution. JavaScript is awesome, if you wanna know more about <abbr title="JavaScript">JS</abbr> then you must visit <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" title="Mozilla Developer Network">MDN</a></p>
+
+        <a class="Button" href="#">Click &amp; Flick</a>
+
+        <div style="height:100px"></div>
+
+        <form class="Form">
+            <input class="Form__control" type="text" placeholder="I don't wanna know your name!" name="">
+            <textarea placeholder="You don't have type anything here, Just focus!" class="Form__control"></textarea>
+            <input class="Button" type="button" name="" value="Don't Submit">
+        </form>
+    </div>
+
+    <script src="dist/color-switcher.js"></script>
+    <script>
+        var colorSheets = [
+            {
+                color: "#ff8400",
+                title: "Switch to Default",
+                href: "./css/color-default.css"
+            },
+            {
+                color: "#ff463a",
+                title: "Switch to Red",
+                href: "./css/color-red.css"
+            },
+            {
+                color: "#4bda28",
+                title: "Switch to Green",
+                href: "./css/color-green.css"
+            },
+            {
+                color: "#4650dc",
+                title: "Switch to Blue",
+                href: "./css/color-blue.css"
+            },
+            {
+                color: "#f41c54",
+                title: "Switch to Magenta",
+                href: "./css/color-magenta.css"
+            }
+        ];
+
+        ColorSwitcher.init(colorSheets);
+    </script>
+</body>
+</html>
